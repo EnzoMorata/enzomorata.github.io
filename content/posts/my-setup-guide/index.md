@@ -1,19 +1,13 @@
 ---
 title: "Guía de Setup de Programas"
 date: 2024-01-19
-#description: "Welcome to my blog!"
-#summary: "Learn more about me and why I am starting this blog."
+summary: "Cómo instalar y configurar un Setup de programación con Windows Subsystem Linux"
+description: "Welcome to my blog!"
 #tags: ["welcome", "new", "about", "first"]
 draft: false
 series: ["Guía de Setup"]
 series_order: 1
-
-#date: 2023-01-10
-#description: "Welcome to my blog!"
-#summary: "Learn more about me and why I am starting this blog."
-# description: "Learn how to build Blowfish manually."
-# slug: "advanced-customisation"
-# tags: ["advanced", "css", "docs"]
+slug: "guia-setup-programas"
 ---
 
 ## Introducción
@@ -77,15 +71,15 @@ explorer.exe .
 
 Primero deberemos indicar de qué formas queremos acceder a VSCode. Por un lado, agregaremos las opciones de abrir VSCode a partir de un archivo o directorio desde el menú contextual. Por otro lado, definiremos VSCode como el editor predeterminado. Y, agregaremos VSCode a PATH para poder ejecutarlo desde la terminal. Para aplicar este cambio deberemos reiniciar el computador.
 
-![vscode_path](vscode1.jpg)
+![VSCode installer configuration](vscode1.jpg)
 
 Luego, si llamamos a code desde la terminal de WSL nos solicitará autorizar el *host*. Así que, lo autorizaremos de forma permanente, rellenando la casilla respectiva.
 
-![vscode_wsl](vscode2.jpg)
+![VSCode allow WSL host option](vscode2.jpg)
 
 Una vez abierto indicaremos que la carpeta de nuestro usuario es confiable para habilitar todas las características. Por lo que, seleccionaremos que confiamos en los autores de los archivos dentro de la carpeta padre de nuestro usuario en WSL.
 
-![vscode_auth](vscode3.jpg)
+![VSCode trusts our user directory](vscode3.jpg)
 
 Una vez instalado, podremos acceder al editor en Windows desde el acceso directo o como una de las opciones del menú contextual al hacer click derecho. Para acceder desde Linux, podemos ejecutar el siguiente comando para abrir el editor en el directorio actual ó alternativamente indicando una ruta:
 
