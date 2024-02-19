@@ -2,7 +2,7 @@
 title: "Guía de Setup de Programas"
 date: 2024-01-19
 summary: "Cómo instalar y configurar un Setup de programación con Windows Subsystem Linux"
-description: "Welcome to my blog!"
+description: "Guía para instalación y configuración de un Setup de programación utilizando Windows Subsystem Linux"
 #tags: ["welcome", "new", "about", "first"]
 draft: false
 series: ["Guía de Setup"]
@@ -22,7 +22,7 @@ El uso que hago del sistema operativo *Linux* es exclusivamente para programar, 
 
 Si bien, las tareas de programación me interesa realizarlas desde Linux, hay algunos programas que pueden resultar prácticos de tener también en Windows. Por ejemplo, un editor de código cómo *VSCode* para poder inspeccionar ciertos archivos que sean descargados desde el navegador. También, hay ciertos programas que están directa o indirectamente relacionados a las tareas de programación y que dada su interfaz es preferible acceder desde Windows y no mediante la terminal en Linux. 
 
-Son todos estos aspectos, sumado a una lista considerable de programas, me motivaron a crear esta guía de setup. A continuación, daré una contextualización de los distintos programas e indicaré una forma de instalación a partir de su documentación. 
+Son todos estos aspectos, sumado a una lista considerable de programas, que me motivaron a crear esta guía de setup. A continuación, daré una contextualización de los distintos programas e indicaré una forma de instalación a partir de su documentación. 
 
 La guía está separada en distintas categorías de programas, por un lado, están los programas que considero que son esenciales y transversales para el desarrollo en este setup en particular. Y, por otro lado, están los programas que si bien son relevantes dependerá de las necesidades o intereses que se tengan. También, nombraré algunos programas que pueden ser instalados en Windows de forma convencional y que pueden llegar a ser un aporte en distintos ámbitos. 
 
@@ -286,7 +286,7 @@ sudo apt install fish
  Por defecto, al abrir la terminal seguiremos usando bash y cuando queramos utilizar fish ejecutamos el comando fish, y para volver a bash usamos exit.
 
 
-### Commando Line Text Editors
+### Command Line Text Editors
 Esta es una categoría de editores de código, que permiten mostrar una interfaz de edición dentro de la terminal. Existen varias opciones, entre ellas una muy conocida y con gran capacidad de personalización y configuración es [NeoVim](https://neovim.io/). 
 
 En mi caso prefiero no instalar ningún editor de texto en la terminal debido a que me acomoda más utilizar VSCode como editor principal. Además, en caso de conexiones remotas por [SSH](https://www.cloudflare.com/es-es/learning/access-management/what-is-ssh/) al no estar instalado por defecto en el servidor remoto; debería utilizar, en un principio, [Nano](https://help.ubuntu.com/community/Nano) o [Vim](https://www.vim.org/about.php) de todas formas. 
