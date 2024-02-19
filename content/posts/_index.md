@@ -5,7 +5,7 @@ description: "Listado de posts"
 ---
 
 {{< lead >}}
-Posts relacionados a la Programación. Esperando poder cubrir tópicos relacionados al Software y la Ciencia de Datos
+Posts relacionados a la Programación. Esperando poder cubrir tópicos relacionados a la Ingeniería de Software y la Ciencia de Datos
 {{< /lead >}}
 
 
