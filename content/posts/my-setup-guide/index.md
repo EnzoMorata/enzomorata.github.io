@@ -98,7 +98,7 @@ Adicionalmente, se pueden agregar múltiples extensiones que permiten trabajar m
 
 
 
-### Git y Git Credential Manager
+### Git y GitHub CLI
 *Git* es un sistema de control de versiones que permite poder manejar tanto de manera individual como colaborativa la forma en que se va modificando el estado de un proyecto. Es una de las herramientas más fundamentales actualmente para poder desarrollar un proyecto de cualquier tamaño y complejidad. Para instalarlo desde Windows podemos descargar el instalador desde la [página web](https://git-scm.com/downloads). Recomiendo buscar una guía específica de instalación ya que el proceso tiene muchas opciones de configuración y es importante revisarlas bien en detalle. 
 
 En el caso de Windows se instalará una terminal adicional basada en Bash, esta terminal se llama *Git Bash*. A partir de ahora, para Windows recomiendo principalmente trabajar desde esta terminal; ya que al estar basada en Bash respeta el estándar [POSIX](https://pubs.opengroup.org/onlinepubs/9699919799.2018edition/). Para Linux podemos instalarlo utilizando APT, en este caso deberemos actualizar la referencia al repositorio para poder obtener las versiones más recientes:
@@ -117,7 +117,7 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
-Podemos instalar [Github CLI](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git?platform=linux#github-cli) para almacenar nuestras credenciales de forma automática, evitando tener que almacenar y copiar manualmente algún token de acceso cada vez que realizacemos alguna operación en Git. Para instalar Github CLI utilizamos APT:
+Podemos instalar [GitHub CLI](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git?platform=linux#github-cli) para almacenar nuestras credenciales de forma automática, evitando tener que almacenar y copiar manualmente algún token de acceso cada vez que realizacemos alguna operación en Git. Para instalar Github CLI utilizamos APT:
 
 ```bash
 sudo apt install gh
