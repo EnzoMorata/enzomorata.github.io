@@ -1,7 +1,7 @@
 ---
-title: "Homepage"
+title: "Página personal de Enzo"
 #date: 2023-01-10
-#description: "Welcome to my blog!"
+description: "Bienvenid@s a mi página web personal! Espero poder ir construyendo progresivamente un portafolio y un blog con posts útiles para distintas personas"
 #summary: "Learn more about me and why I am starting this blog."
 #tags: ["welcome", "new", "about", "first"]
 draft: false
